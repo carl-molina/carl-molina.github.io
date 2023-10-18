@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  background-color: #111;
+}
+
+nav {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 1px 1px 2px black;
+}
+
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 1px 1px 2px black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #373737;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+
+.centered, #pdf-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#profile {
+  width: 25%;
+  height: 25%;
+  float: left;
+}
+
+.coming-soon, .resume-block{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+#pdf-image {
+  width: 40px;
+  height: 40px;
+}
+
+#resumeJPG {
+  width: 50%;
+  height: 50%;
+}
+
+.resume-block {
+  background-color: white;
+  padding: 2%;
+  margin-left: 25%;
+  border-radius: 25%;
+}
